@@ -9,9 +9,11 @@ public class LinkedListImpl {
 		List l=new LinkedList<Integer>();
 		
 		
-		l.add(101);
-		l.add(102);
-		l.add(103);
+		l.add(100);
+		l.add('a');
+		l.add(true);
+		l.add(100.12);
+		l.add("abc");
 		
 		//add at middle
 		l.add(2, 1010);
