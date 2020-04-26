@@ -6,6 +6,7 @@ import java.util.LinkedHashSet;
 import java.util.Set;
 /*
  * Contains unique elements only like HashSet. 
+ * Underlying data structure for HashSet is Hashtable & LinkedList
  * It extends HashSet class and implements Set interface.Maintains insertion order.
  */
 
