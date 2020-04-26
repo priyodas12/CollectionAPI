@@ -12,7 +12,7 @@ import java.util.HashMap;
  * Null Allowed as value: multiple
  * Insertion order: doesn't preserve the insertion order.
  * Content type: Heterogeneous if not generic mentioned.
- * ConcurrentModificationException: will not throw
+ * ConcurrentModificationException: will throw
  * Time complexity: Search O(1) ,Insertion O(1) ,Deletion O(1) worst case O(n)
  * Space complexity: O(n) 
 */
