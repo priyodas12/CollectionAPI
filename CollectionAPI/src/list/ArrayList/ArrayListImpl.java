@@ -8,7 +8,7 @@ import java.util.List;
  * Implements: RandomAccess,Cloneable,Serializable
  * Initial Capacity: 10 increased capacity:(10*3/2)+1
  * Insertion order: indexed, same as inserted.
- * Time complexity: size, isEmpty, get, set, iterator, and listIterator  O(1),adding n elements O(n) time. All of the other operations run in linear time (roughly speaking).
+ * Time complexity: size, isEmpty, get, set, iterator, and listIterator  O(1),adding ,removing n elements O(n) time. All of the other operations run in linear time (roughly speaking).
  * Space complexity: O(n)
  */
 

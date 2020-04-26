@@ -3,12 +3,16 @@ package set.HashSet;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
-/*	Implements Set Interface.
-	Underlying data structure for HashSet is hashtable.
-	As it implements the Set Interface, duplicate values are not allowed.
-	Objects that you insert in HashSet are not guaranteed to be inserted in same order. Objects are inserted based on their hash code.
-	NULL elements are allowed in HashSet.
-	HashSet also implements Searlizable and Cloneable interfaces.
+/*
+ * Underlying DataStructure: Hashtable
+ * Implements: Set,Cloneable,Serializable
+ * Initial Capacity: 16, load-factor=.75
+ * Thread safe: No
+ * Duplicate allowed: NO
+ * Null Allowed: 1 time
+ * Insertion order: Not preserved.
+ * Time complexity: Add O(1), Contains O(1) ,Insertion O(1) ,Deletion O(1)
+ * Space complexity: O(n) 
 */
 public class HashsetImpl {
 
