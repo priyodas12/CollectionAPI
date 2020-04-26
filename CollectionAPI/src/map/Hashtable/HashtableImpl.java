@@ -8,7 +8,7 @@ import java.util.Hashtable;
  * Initial Capacity: 11, load-factor=.75
  * Thread safe: Yes
  * Duplicate allowed: NO
- * Null Allowed: No
+ * Null Allowed as key or value: No
  * Insertion order: doesn't preserve the insertion order.
  * Content type: Heterogeneous
  * Time complexity: Search O(1) ,Insertion O(1) ,Deletion O(1)
@@ -24,6 +24,8 @@ public class HashtableImpl {
 		hs.put(1, "a");
 		hs.put(2, "b");
 		hs.put(3, "c");
+		hs.put(7,null);
+		//hs.put(null,"abc");
 		hs.put(4, "d");
 		
 		for(Object i:hs.keySet()) {
