@@ -29,7 +29,14 @@ public class HashMapImpl {
 		hm.put(105,null);
 		hm.put(106,null);
 		
-		hm.entrySet().stream().forEach(x->System.out.println(x));
+		//hm.entrySet().stream().forEach(x->System.out.println(x));
+		
+		//java.util.ConcurrentModificationException
+		hm.forEach((k,v)->{
+			System.out.println("key: "+k+" value: "+v);
+			hm.put(10012, "a1000");
+			}
+		);
 
 	}
 
