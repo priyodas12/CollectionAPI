@@ -13,7 +13,7 @@ import java.util.TreeSet;
  * Duplicate allowed: NO
  * Null Allowed: No
  * Insertion order: Sorted.
- * Content type: Heterogeneous
+ * Content type: Homogeneous
  * Time complexity: Add O(log n), Contains O(log n) ,Insertion O(log n) ,Deletion O(log n)
  * Space complexity: O(n) 
 */

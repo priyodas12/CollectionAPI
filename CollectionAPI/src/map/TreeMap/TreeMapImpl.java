@@ -11,7 +11,7 @@ import java.util.TreeMap;
  * Null  allowed as key:No
  * Null Allowed as value: Yes
  * Insertion order: sorted order as mentioned in constructor or natural order of sorting
- * Content type: Heterogeneous
+ * Content type: Homogeneous
  * Time complexity: Search O(log n) ,Insertion O(log n) ,Deletion O(log n)
  * Space complexity: O(n) 
 */

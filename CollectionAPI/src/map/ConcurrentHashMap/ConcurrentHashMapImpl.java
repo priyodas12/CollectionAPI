@@ -12,6 +12,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * Null Allowed as value: No
  * Insertion order: doesn't preserve the insertion order.
  * Content type: Heterogeneous if not generic mentioned.
+ * ConcurrentModificationException: will not throw
  * Time complexity: Search O(1) ,Insertion O(1) ,Deletion O(1) worst case O(n)
  * Space complexity: O(n) 
 */
