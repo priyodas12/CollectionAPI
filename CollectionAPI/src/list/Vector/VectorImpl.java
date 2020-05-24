@@ -22,7 +22,14 @@ public class VectorImpl {
 		v.add(100.12);
 		v.add("abc");
 		
-		v.stream().forEach(x->System.out.print(x+","));
+		//v.stream().forEach(x->System.out.print(x+","));
+
+		//legacy method of vector class.
+		Enumeration enumeration=v.elements();
+
+		while(enumeration.hasNext()){
+			System.out.println(enumeration.next());
+		}
 		
 	}
 
